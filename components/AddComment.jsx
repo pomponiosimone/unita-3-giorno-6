@@ -24,6 +24,7 @@ class AddComment extends Component {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjgyY2I5ZjJiNjYwYzAwMTUzZDhlMjgiLCJpYXQiOjE3MTk4NDc4MzksImV4cCI6MTcyMTA1NzQzOX0.nIpiN4YiSnRrZ8WOvi4xUIUuvmppUTN_M3GoXsyDL6E',
         },
         body: JSON.stringify(newComment),
       });
